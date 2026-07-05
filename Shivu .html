@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background: linear-gradient(to bottom, #ffcccc, #ffe6f0);
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #ff85c3;
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 28px;
+            color: #333;
+            font-weight: bold;
+            display: none;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .confetti {
+            position: fixed;
+            width: 15px;
+            height: 15px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            animation: fall 1.5s ease-in infinite;
+            z-index: 1000;
+        }
+        @keyframes fall {
+            0% { transform: translateY(0) translateX(0); opacity: 1; }
+            100% { transform: translateY(100vh) translateX(random(-100px, 100px)); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>A Special Proposal for You, Shivoo ❤️</h1>
+    <button onclick="showMessage()">Click to See</button>
+    <div class="message" id="message">
+        Dear Shivoo, from Lucky, you are the spark in my world. Will you be mine forever? 💖
+    </div>
+    <button onclick="yesClick()">Yes</button>
+    <button onclick="noClick()" id="noButton">No</button>
+    <div id="confettiContainer"></div>
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+
+        function yesClick() {
+            alert('Lucky and Shivoo, may your love shine forever! ❤️');
+            generateConfetti();
+            let message = document.getElementById('message');
+            message.innerHTML = '💍 Lucky and Shivoo, together forever! 💍';
+        }
+
+        function noClick() {
+            let noButton = document.getElementById('noButton');
+            noButton.style.position = 'absolute';
+            noButton.style.top = Math.random() * 80 + '%';
+            noButton.style.left = Math.random() * 80 + '%';
+        }
+
+        function generateConfetti() {
+            let container = document.getElementById('confettiContainer');
+            for (let i = 0; i < 50; i++) {
+                let confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left
+                <!DOCTYPE html>
+<html>
+<head>
+    <title>Special Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background: linear-gradient(to bottom, #ffcccc, #ffe6f0);
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #ff85c3;
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 28px;
+            color: #333;
+            font-weight: bold;
+            display: none;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .confetti {
+            position: fixed;
+            width: 15px;
+            height: 15px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            animation: fall 1.5s ease-in infinite;<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background: linear-gradient(to bottom, #ffcccc, #ffe6f0);
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #ff85c3;
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 28px;
+            color: #333;
+            font-weight: bold;
+            display: none;
+            margin-bottom: 20px;
+            animation: fadeIn 1s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .confetti {
+            position: fixed;
+            width: 15px;
+            height: 15px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            animation: fall 1.5s ease-in infinite;
